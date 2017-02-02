@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Multi-lingual Word Translator</title>
+		<link rel="stylesheet" href="style/style.css">
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.0/css/bulma.css"> -->
+		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Multi-lingual Word Comparison</h1>
+		<form id="search_term" action="submit" type="text">
+			<input id="query" type="search" placeholder="*Enter word in English">
+			<input type="submit" placeholder="Submit">
+		</form>
+							<!-- testing -->
+		<!-- <progress onclick="move()" id="progressbar" class="progress is-large is-info" max="18" value="1"></progress> -->
+							<!-- end test -->
+
+		<!-- <p id="loadbar">*Load bar here</p> -->
+		<h3 class="translated">Your Word(s) in English being translated:<span id="output"></span></h3> <!-- Cannot figure out how to create a space right here -->
+		<div class="translated_words">
+			<table class="container">
+				<thead>
+					<tr>
+						<th><h1>Romance Languages</h1></th>
+						<th><h1>Germanic Languages</h1></th>
+						<th><h1>Slavic Languages</h1></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>French:<span id="fr"> </span></td>
+						<td>German:<span id="de"> </span></td>
+						<td>Belarussian:<span id="be"> </span></td>
+					</tr>
+					<tr>
+						<td>Spanish:<span id="es"></span></td>
+						<td>Dutch:<span id="nl"></span></td>
+						<td>Russian:<span id="ru"></span></td>
+					</tr>
+					<tr>
+						<td>Italian:<span id="it"></span></td>
+						<td>English:<span id="en"></span></td>
+						<td>Ukrainian:<span id="uk"></span></td>
+					</tr>
+					<tr>
+						<td>Portuguese:<span id="pt"></span></td>
+						<td>Norwegian:<span id="no"></span></td>
+						<td>Bulgarian:<span id="bg"></span></td>
+					</tr>
+					<tr>
+						<td>Catalan:<span id="ca"></span></td>
+						<td>Swedish:<span id="sv"></span></td>
+						<td>Serbian:<span id="sr"></span></td>
+					</tr>
+					<tr>
+						<td>Romanian:<span id="ro"></span></td>
+						<td>Danish:<span id="da"></span></td>
+						<td>Polish:<span id="pl"></span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="script/main.js"></script>
+	</body>
+</html>
