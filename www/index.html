@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Multi-lingual Word Translator</title>
-		<link rel="stylesheet" href="style/style.css">
-		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.0/css/bulma.css"> -->
+		<link rel="stylesheet" href="./style.css">
 		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="./main.js"></script>
 	</head>
 	<body>
 		<h1>Multi-lingual Word Comparison</h1>
@@ -13,12 +14,8 @@
 			<input id="query" type="search" placeholder="*Enter word in English">
 			<input type="submit" placeholder="Submit">
 		</form>
-							<!-- testing -->
-		<!-- <progress onclick="move()" id="progressbar" class="progress is-large is-info" max="18" value="1"></progress> -->
-							<!-- end test -->
-
 		<!-- <p id="loadbar">*Load bar here</p> -->
-		<h3 class="translated">Your Word(s) in English being translated:<span id="output"></span></h3> <!-- Cannot figure out how to create a space right here -->
+		<h3 class="translated">Your Word(s) in English being translated:<span id="output"></span></h3>
 		<div class="translated_words">
 			<table class="container">
 				<thead>
@@ -61,8 +58,7 @@
 					</tr>
 				</tbody>
 			</table>
+            <span><a style="color: white" href="https://translate.yandex.com/">Powered by Yandex.Translate</a></span>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-		<script src="script/main.js"></script>
-	</body>
+			</body>
 </html>

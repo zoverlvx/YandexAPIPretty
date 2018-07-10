@@ -1,0 +1,23 @@
+{
+  "name": "yandex-translate-api",
+  "version": "1.0.0",
+  "description": "<h1>Yadex Translate API</h1> <p>Yandex Translate API is a Multi-lingual word translator. It allows the user to translate words from English into 17 foreign languages. Best used for quick etymological comparisons.</p>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoverlvx/yandex-translate-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoverlvx/yandex-translate-api/issues"
+  },
+  "homepage": "https://github.com/zoverlvx/yandex-translate-api#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
